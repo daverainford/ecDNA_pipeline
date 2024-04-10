@@ -1,9 +1,12 @@
 process TestInstall {
     tag "${sample_id}"
-    publishDir "${params.outdir}/test", mode: 'move'
+    publishDir "${params.outdir}/test/", mode: 'move'
 
     input:
     tuple val(sample_id), path(reads)
+
+    output:
+    path("*"), emit: aa_output
 
     script:
     def (read1, read2) = reads
