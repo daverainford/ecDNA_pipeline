@@ -1,0 +1,6 @@
+*
+!modules/
+!modules/**
+!main.nf
+!nextflow.config
+.DS_Store
