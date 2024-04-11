@@ -1,5 +1,5 @@
 # Overview
-This is a Nextflow pipeline to handle containerized [Link AmpliconArchitect]([URL](https://github.com/virajbdeshpande/AmpliconArchitect)) inputs and outputs.
+This is a Nextflow pipeline to handle containerized [Link AmpliconArchitect](https://github.com/virajbdeshpande/AmpliconArchitect) inputs and outputs.
 
 # Data Format
 This pipeline takes a matched tumor/normal pair of BAM file as input.
