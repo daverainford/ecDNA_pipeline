@@ -4,6 +4,7 @@ This is a Nextflow pipeline to handle containerized [AmpliconArchitect](https://
 # Data Format
 This pipeline takes a matched tumor/normal pair of BAM file as input. 
 It is reccomended to test AmpliconArchitect upon initial install, which can be done here by: ```--test true```.
+The AmpliconArchitect test FASTQ files can be found by following the testing instructions in the link above.
 
 # Usage
 ```
