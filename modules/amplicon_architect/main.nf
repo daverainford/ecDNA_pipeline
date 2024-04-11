@@ -1,15 +1,18 @@
 nextflow.enable.dsl=2
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////
+params.outdir = "/scratch/drainford/skcm_ecdna/ecDNA/results"
+///////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
 process AmpliconSuite {
     tag "${sample_id}"
-    publishDir "${params.outdir}/${sample_id}/", mode: 'move'
+    publishDir "${params.outdir}/", mode: 'copy'
 
     input:
     tuple val(sample_id), path(mod_bams)
 
     output:
-    path("*"), emit: aa_output
+    path("*.tar.gz"), emit: aa_output
 
     script:
     def (mod_bam1, mod_bam2) = mod_bams
@@ -26,15 +29,15 @@ process AmpliconSuite {
 
     ./AmpliconSuite-pipeline/singularity/run_paa_singularity.py \\
         -s ${sample_id} \\
-        -t 1 \\
+        -t 2 \\
         -o ./ \\
         --ref GRCh38 \\
         --bam ${mod_bam2} \\
         --normal_bam ${mod_bam1} \\
         --run_AA \\
-        --run_AC > ./${sample_id}.log 2>&1
+        --run_AC 
 
-    rm -rf ./ampliconsuaite-pipeline.sif ./*.bam ./AmpliconSuite-pipeline
+    find ./ -type f ! -name "*.tar.gz" -exec rm -f {} +
     """
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////

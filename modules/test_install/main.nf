@@ -1,3 +1,9 @@
+nextflow.enable.dsl=2
+///////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+params.outdir = "/scratch/drainford/skcm_ecdna/ecDNA/results"
+///////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
 process TestInstall {
     tag "${sample_id}"
     publishDir "${params.outdir}/test/", mode: 'move'
@@ -6,7 +12,7 @@ process TestInstall {
     tuple val(sample_id), path(reads)
 
     output:
-    path("*"), emit: aa_output
+    path("*.tar.gz"), emit: aa_output
 
     script:
     def (read1, read2) = reads
@@ -24,13 +30,13 @@ process TestInstall {
     mkdir ./logs/
     ./AmpliconSuite-pipeline/singularity/run_paa_singularity.py \\
         -s ${sample_id} \\
-        -t 1 \\
+        -t 2 \\
         -o ${params.outdir}/test/ \\
         --fastqs ${read1} ${read2} \\
         --ref hg19 \\
         --run_AA \\
-        --run_AC &> ./logs/testInstall.log
+        --run_AC &> ./testInstall.log
 
-    rm -rf ./ampliconsuite-pipeline.sif ./AmpliconSuite-pipeline/
+    find ./ -type f ! -name "*.tar.gz" -exec rm -f {} +
     """
 }
