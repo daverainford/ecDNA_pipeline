@@ -1,9 +1,9 @@
 nextflow.enable.dsl=2
-///////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Define params. This will be removed, as the params are not currently carrying over from main.nf. Need to debug.
 params.outdir = "/scratch/drainford/skcm_ecdna/ecDNA/results"
-///////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Define process to test the AmpliconSuite pipeline 
 process TestInstall {
     tag "${sample_id}"
     publishDir "${params.outdir}/test/", mode: 'move'
@@ -15,8 +15,10 @@ process TestInstall {
     path("*.tar.gz"), emit: aa_output
 
     script:
+    // Split FASTQ files into read pairs
     def (read1, read2) = reads
 
+    // Pull container, run AmpliconSuite test, clean up work dir.
     """
     module load singularity
     module load git
