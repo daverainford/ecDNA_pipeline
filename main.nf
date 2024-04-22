@@ -6,8 +6,8 @@ include {AmpliconSuite} from './modules/amplicon_architect/main.nf'
 include {DataSummary} from './modules/data_summary/main.nf'
 
 // Define parameters
-params.data = "/scratch/drainford/skcm_ecdna/ecDNA/test_data" 
-params.outdir = "/scratch/drainford/skcm_ecdna/ecDNA/results"
+params.data = "./data/test_fastq/" 
+params.outdir = "./results/test_results/"
 params.test = false
 params.help = false
 
@@ -31,19 +31,16 @@ if (params.help) {
     System.exit(0) 
 }
 
-// Construct channels for test FASTQs and WGS BAMs
-test_reads_channel = Channel.fromFilePairs("${params.data}/*_{1,2}.fastq.gz")
-    .ifEmpty { throw new RuntimeException("No FASTQ files found matching pattern in ${params.data}/") }
-
-bams_channel = Channel.fromFilePairs("${params.data}/*_{T,N}.bam")
-    .ifEmpty { throw new RuntimeException("No BAM files found matching pattern in ${params.data}/") }
-
-// Define nextflow workflow
+// Define nextflow workflow and data channels
 workflow {
     // If "--test true" is specified, test pipeline, else run as normal
     if (params.test) {
+        test_reads_channel = Channel.fromFilePairs("${params.data}/*_{1,2}.fastq.gz")
+            .ifEmpty { throw new RuntimeException("No FASTQ files found matching pattern in ${params.data}/") }
         TestInstall(test_reads_channel)
     } else {
+        bams_channel = Channel.fromFilePairs("${params.data}/*_{T,N}.bam")
+            .ifEmpty { throw new RuntimeException("No BAM files found matching pattern in ${params.data}/") }
         def ampliconOutputs = AmpliconSuite(bams_channel)
         DataSummary(ampliconOutputs.aa_output)
     }
