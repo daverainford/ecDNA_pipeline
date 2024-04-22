@@ -35,12 +35,12 @@ if (params.help) {
 workflow {
     // If "--test true" is specified, test pipeline, else run as normal
     if (params.test) {
-        test_reads_channel = Channel.fromFilePairs("${params.data}/*_{1,2}.fastq.gz")
-            .ifEmpty { throw new RuntimeException("No FASTQ files found matching pattern in ${params.data}/") }
+        def test_reads_channel = Channel.fromFilePairs("${params.data}/*_{1,2}.fastq")
+            .ifEmpty {throw new RuntimeException("No FASTQ files found matching pattern in ${params.data}/")}
         TestInstall(test_reads_channel)
     } else {
-        bams_channel = Channel.fromFilePairs("${params.data}/*_{T,N}.bam")
-            .ifEmpty { throw new RuntimeException("No BAM files found matching pattern in ${params.data}/") }
+        def bams_channel = Channel.fromFilePairs("${params.data}/*_{T,N}.bam")
+            .ifEmpty {throw new RuntimeException("No BAM files found matching pattern in ${params.data}/")}
         def ampliconOutputs = AmpliconSuite(bams_channel)
         DataSummary(ampliconOutputs.aa_output)
     }
