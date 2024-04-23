@@ -12,4 +12,5 @@ nextflow run main.nf \
   --data <path to BAM or test FASTQ files> \
   --outdir <path to output directory> \
   --test <true if you want to test the pipeline; default false>
+  -bg Use this flag to run a batch job on SLURM
 ```
