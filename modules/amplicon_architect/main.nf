@@ -22,10 +22,7 @@ process AmpliconSuite {
     """
     module load git
     module load singularity
-
-    export AA_DATA_REPO=/home/drainford/aa_data_repo/
-    export HOME=/home/drainford/
-
+    
     singularity pull ./ampliconsuite-pipeline.sif library://jluebeck/ampliconsuite-pipeline/ampliconsuite-pipeline:1.3.1
     git clone https://github.com/AmpliconSuite/AmpliconSuite-pipeline
 

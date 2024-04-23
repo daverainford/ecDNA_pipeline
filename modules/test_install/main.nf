@@ -23,19 +23,16 @@ process TestInstall {
     module load singularity
     module load git
 
-    export AA_DATA_REPO=/scratch/drainford/skcm_ecdna/aa_data_repo/
-    export HOME=/home/drainford/
-
     singularity pull ./ampliconsuite-pipeline.sif library://jluebeck/ampliconsuite-pipeline/ampliconsuite-pipeline:1.3.1
     git clone https://github.com/AmpliconSuite/AmpliconSuite-pipeline
 
     mkdir ./logs/
     ./AmpliconSuite-pipeline/singularity/run_paa_singularity.py \\
         -s ${sample_id} \\
-        -t 2 \\
+        -t 2\\
         -o ${params.outdir}/test/ \\
         --fastqs ${read1} ${read2} \\
-        --ref hg19 \\
+        --ref GRCh38 \\
         --run_AA \\
         --run_AC &> ./testInstall.log
 
