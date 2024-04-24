@@ -26,7 +26,6 @@ process TestInstall {
     singularity pull ./ampliconsuite-pipeline.sif library://jluebeck/ampliconsuite-pipeline/ampliconsuite-pipeline:1.3.1
     git clone https://github.com/AmpliconSuite/AmpliconSuite-pipeline
 
-    mkdir ./logs/
     ./AmpliconSuite-pipeline/singularity/run_paa_singularity.py \\
         -s ${sample_id} \\
         -t 2\\
