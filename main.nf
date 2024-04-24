@@ -21,6 +21,7 @@ nextflow run script.nf --data <path> --outdir <path> --test <Boolean>
 Options:
 --data      Path to the directory containing input BAM files OR test FASTQ files.
 --outdir    Path to the directory where AmpliconArchitect with publish the results.
+--user      HPC user account ID
 --test      Boolean to run the TestInstall process. Default is false.
 
 --help      Print this help message.
