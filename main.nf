@@ -8,6 +8,7 @@ include {DataSummary} from './modules/data_summary/main.nf'
 // Define parameters
 params.data = "./data/test_fastq/" 
 params.outdir = "./results/test_results/"
+params.user = "HPC"
 params.test = false
 params.help = false
 

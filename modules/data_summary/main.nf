@@ -1,5 +1,12 @@
 nextflow.enable.dsl=2
 
+// Define parameters
+params.data = "./data/test_fastq/" 
+params.outdir = "./results/test_results/"
+params.user = "HPC"
+params.test = false
+params.help = false
+
 // Define params. This will be removed, as the params are not currently carrying over from main.nf. Need to debug.
 params.outdir = "/scratch/drainford/skcm_ecdna/ecDNA/results"
 
