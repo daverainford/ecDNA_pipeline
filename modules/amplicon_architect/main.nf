@@ -34,11 +34,11 @@ process AmpliconSuite {
 
     ./AmpliconSuite-pipeline/singularity/run_paa_singularity.py \\
         -s ${sample_id} \\
-        -t 4 \\
+        -t 2 \\
         -o ./ \\
         --ref GRCh38 \\
-        --bam ${normal} \\
-        --normal_bam ${tumor} \\
+        --bam ${tumor} \\
+        --normal_bam ${normal} \\
         --run_AA \\
         --run_AC 
 
