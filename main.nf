@@ -22,7 +22,7 @@ Options:
 --data      Path to the directory containing input BAM files OR test FASTQ files.
 --outdir    Path to the directory where AmpliconArchitect with publish the results.
 --user      HPC user account ID
---test      Boolean to run the TestInstall process. Default is false.
+--test      Argument to run TestInstall process.
 
 --help      Print this help message.
 """
