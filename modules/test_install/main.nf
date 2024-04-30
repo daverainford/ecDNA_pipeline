@@ -34,7 +34,7 @@ process TestInstall {
 
     ./AmpliconSuite-pipeline/singularity/run_paa_singularity.py \\
         -s ${sample_id} \\
-        -t 5 \\
+        -t 4 \\
         -o ./ \\
         --fastqs ${read1} ${read2} \\
         --ref GRCh38 \\
