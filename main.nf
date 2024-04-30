@@ -3,7 +3,8 @@ nextflow.enable.dsl=2
 // Load modules
 include {TestInstall} from './modules/test_install/main.nf'
 include {AmpliconSuite} from './modules/amplicon_architect/main.nf'
-include {DataSummary} from './modules/data_summary/main.nf'
+//DataSummary is depcrecated
+// include {DataSummary} from './modules/data_summary/main.nf'
 
 // Define parameters
 params.data = "./data/test_fastq/" 
@@ -44,6 +45,7 @@ workflow {
         def bams_channel = Channel.fromFilePairs("${params.data}/*_{T,N}.bam")
             .ifEmpty {throw new RuntimeException("No BAM files found matching pattern in ${params.data}/")}
         def ampliconOutputs = AmpliconSuite(bams_channel)
-        DataSummary(ampliconOutputs.aa_output)
+        //DataSummary is deprecated
+        // DataSummary(ampliconOutputs.aa_output)
     }
 }
