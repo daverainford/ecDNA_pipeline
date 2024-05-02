@@ -3,4 +3,5 @@
 !modules/**
 !main.nf
 !nextflow.config
+!gdc_download.sh
 .DS_Store
