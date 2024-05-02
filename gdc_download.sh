@@ -2,17 +2,16 @@
 #SBATCH --job-name=gdc_client
 #SBATCH --mail-type=ALL     
 #SBATCH --mail-user=drainford@tgen.org  
-#SBATCH --partition=gpu
 #SBATCH --ntasks=1 
 #SBATCH --cpus-per-task=20                                    
-#SBATCH --time=72:00:00               
+#SBATCH --time=36:00:00               
 #SBATCH --output=/scratch/drainford/logs/gdc_client.log
 
 # Load singularity
 module load singularity
 
 # Download TCGA data to data download directory
-singularity exec /scratch/drainford/containers/gdc-client_1.6.1.sif download \
+singularity exec /scratch/drainford/containers/gdc-client_1.6.1.sif gdc-client download \
     -n 20 \
     -m /scratch/drainford/ecDNA/data/*batch* \
     -t /scratch/drainford/ecDNA/data/*token* \
