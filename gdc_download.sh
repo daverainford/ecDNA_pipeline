@@ -13,8 +13,8 @@ module load singularity
 # Download TCGA data to data download directory
 singularity exec /scratch/drainford/containers/gdc-client_1.6.1.sif gdc-client download \
     -n 20 \
-    -m /scratch/drainford/ecDNA/data/*batch* \
-    -t /scratch/drainford/ecDNA/data/*token* \
+    -m download_data/*batch* \
+    -t download_data/*token* \
     -d /scratch/drainford/ecDNA/data/
 
 # Empty all subdirectories in data download directory
