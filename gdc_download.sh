@@ -26,5 +26,5 @@ find /scratch/drainford/ecDNA/data/ -mindepth 1 -type d -exec rm -r {} +
 # Remove uneeded index and parcel files
 rm /scratch/drainford/ecDNA/data/*.bai /scratch/drainford/ecDNA/data/*.parcel
 
-# Get md5sums for bams all files in download directory
-md5sum /scratch/drainford/ecDNA/data/* > checksums.txt
+# # Get md5sums for bams all files in download directory
+# md5sum /scratch/drainford/ecDNA/data/* > checksums.txt
