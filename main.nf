@@ -54,6 +54,6 @@ workflow {
     if (params.wes) {
         def bams_channel = Channel.fromFilePairs("${params.data}/*_{T,N}.bam")
             .ifEmpty {throw new RuntimeException("No BAM files found matching pattern in ${params.data}/")}
-        def gcapOutputs = GCAP(bams_channel)
+        def gcapOutputs = Gcap(bams_channel)
     }
 }
