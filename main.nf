@@ -3,11 +3,14 @@ nextflow.enable.dsl=2
 // Load modules
 include {TestInstall} from './modules/test_install/main.nf'
 include {AmpliconSuite} from './modules/amplicon_architect/main.nf'
+include {Gcap} from './modules/gcap/main.nf'
 
 // Define parameters
 params.data = "./data/test_fastq/" 
 params.outdir = "./results/test_results/"
 params.user = "HPC"
+params.wes = false
+params.wgs = false
 params.test = false
 params.help = false
 
@@ -39,9 +42,17 @@ workflow {
         def test_reads_channel = Channel.fromFilePairs("${params.data}/*_{1,2}.fastq")
             .ifEmpty {throw new RuntimeException("No FASTQ files found matching pattern in ${params.data}/")}
         TestInstall(test_reads_channel)
-    } else {
+    } 
+
+    if (params.wgs) {
         def bams_channel = Channel.fromFilePairs("${params.data}/*_{T,N}.bam")
             .ifEmpty {throw new RuntimeException("No BAM files found matching pattern in ${params.data}/")}
         def ampliconOutputs = AmpliconSuite(bams_channel)
+    }
+
+    if (params.wes) {
+        def bams_channel = Channel.fromFilePairs("${params.data}/*_{T,N}.bam")
+            .ifEmpty {throw new RuntimeException("No BAM files found matching pattern in ${params.data}/")}
+        def gcapOutputs = GCAP(bams_channel)
     }
 }
