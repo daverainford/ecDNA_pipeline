@@ -9,6 +9,7 @@ include {Gcap} from './modules/gcap/main.nf'
 params.data = "./data/test_fastq/" 
 params.outdir = "./results/test_results/"
 params.user = "HPC"
+params.gcap_conatiner = "/scratch/drainford/containers/gcap_latest.sif"
 params.wes = false
 params.wgs = false
 params.test = false

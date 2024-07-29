@@ -4,6 +4,9 @@ nextflow.enable.dsl=2
 params.data = "./data/test_fastq/" 
 params.outdir = "./results/test_results/"
 params.user = "HPC"
+params.gcap_conatiner = "/scratch/drainford/containers/gcap_latest.sif"
+params.wes = false
+params.wgs = false
 params.test = false
 params.help = false
 
@@ -11,37 +14,18 @@ params.help = false
 process Gcap {
     tag "${sample_id}"
     publishDir "${params.outdir}/", mode: 'move'
+    container params.gcap_container
 
     input:
-    tuple val(sample_id), path(mod_bams)
+    tuple val(sample_id), path(mod_bams), path("gcap.R")
 
     output:
-    path("*.tar.gz"), emit: aa_output
+    path("*.tsv"), emit: aa_output
 
     script:
-    // Seperate T/N bams for use in pipeline.
-    def (normal, tumor) = mod_bams
-
-    // Pull container, run AmpliconSuite, clean up work dir.
+     // Pull container, run GCAP, clean up work dir.
     """
-    module load git
-    module load singularity
-
-    export HOME=/home/${params.user}/
-    
-    singularity pull ./ampliconsuite-pipeline.sif library://jluebeck/ampliconsuite-pipeline/ampliconsuite-pipeline:1.3.1
-    git clone https://github.com/AmpliconSuite/AmpliconSuite-pipeline
-
-    ./AmpliconSuite-pipeline/singularity/run_paa_singularity.py \\
-        -s ${sample_id} \\
-        -t 5 \\
-        -o ./ \\
-        --ref GRCh38 \\
-        --bam ${tumor} \\
-        --normal_bam ${normal} \\
-        --run_AA \\
-        --run_AC 
-
-    find ./ -type f ! -name "*.tar.gz" -exec rm -f {} +
+    Rscript gcap.R
+    find ./ -type f ! -name "*.tsv" -exec rm -f {} +
     """
 }
