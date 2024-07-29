@@ -43,7 +43,5 @@ workflow {
         def bams_channel = Channel.fromFilePairs("${params.data}/*_{T,N}.bam")
             .ifEmpty {throw new RuntimeException("No BAM files found matching pattern in ${params.data}/")}
         def ampliconOutputs = AmpliconSuite(bams_channel)
-        //DataSummary is deprecated
-        // DataSummary(ampliconOutputs.aa_output)
     }
 }
