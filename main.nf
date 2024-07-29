@@ -3,8 +3,6 @@ nextflow.enable.dsl=2
 // Load modules
 include {TestInstall} from './modules/test_install/main.nf'
 include {AmpliconSuite} from './modules/amplicon_architect/main.nf'
-//DataSummary is depcrecated
-// include {DataSummary} from './modules/data_summary/main.nf'
 
 // Define parameters
 params.data = "./data/test_fastq/" 
