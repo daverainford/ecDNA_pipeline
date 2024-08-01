@@ -15,13 +15,13 @@ singularity exec /scratch/drainford/containers/gdc-client_1.6.1.sif gdc-client d
     -n 40 \
     -m download_data/*manifest* \
     -t download_data/*token* \
-    -d /vscratch/drainford/ecDNA_data/
+    -d /scratch/drainford/ecDNA_pipeline/data/
 
 # Empty all subdirectories in data download directory
-find /vscratch/drainford/ecDNA_data/ -mindepth 2 -type f -exec mv -t /scratch/drainford/ecDNA/data/ {} +
+find /scratch/drainford/ecDNA_pipeline/data/ -mindepth 2 -type f -exec mv -t /scratch/drainford/ecDNA_pipeline/data/ {} +
 
 # Delete the now empty directories
-find /vscratch/drainford/ecDNA_data/ -mindepth 1 -type d -exec rm -r {} +
+find /scratch/drainford/ecDNA_pipeline/data/ -mindepth 1 -type d -exec rm -r {} +
 
 # Remove uneeded index and parcel files
-rm /vscratch/drainford/ecDNA_data/*.bai /vscratch/drainford/ecDNA_data/*.parcel
+rm /scratch/drainford/ecDNA_pipeline/data/*.bai /scratch/drainford/ecDNA_pipeline/data/*.parcel
