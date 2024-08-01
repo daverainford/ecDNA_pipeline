@@ -5,3 +5,4 @@
 !nextflow.config
 !gdc_download.sh
 .DS_Store
+gdc_download.sh
