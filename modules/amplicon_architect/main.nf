@@ -4,11 +4,15 @@ nextflow.enable.dsl=2
 params.data = "./data/test_fastq/" 
 params.outdir = "./results/test_results/"
 params.user = "HPC"
+params.gcap_conatiner = "/scratch/drainford/containers/gcap_latest.sif"
+params.wes = false
+params.wgs = false
 params.test = false
 params.help = false
+params.bed = "./reference/exons.bed"
 
 // Define process to execute ampliconSuite pipeline.
-process AmpliconSuite {
+process BamExtract {
     tag "${sample_id}"
     publishDir "${params.outdir}/", mode: 'move'
 
