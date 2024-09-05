@@ -4,15 +4,11 @@ nextflow.enable.dsl=2
 params.data = "./data/test_fastq/" 
 params.outdir = "./results/test_results/"
 params.user = "HPC"
-params.gcap_conatiner = "/scratch/drainford/containers/gcap_latest.sif"
-params.wes = false
-params.wgs = false
 params.test = false
 params.help = false
-params.bed = "./reference/exons.bed"
 
 // Define process to execute ampliconSuite pipeline.
-process BamExtract {
+process AmpliconSuite {
     tag "${sample_id}"
     publishDir "${params.outdir}/", mode: 'move'
 
@@ -20,7 +16,7 @@ process BamExtract {
     tuple val(sample_id), path(mod_bams)
 
     output:
-    path("*.tar.gz"), emit: aa_output
+    path("*.tar.gz")
 
     script:
     // Seperate T/N bams for use in pipeline.
