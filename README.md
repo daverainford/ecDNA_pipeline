@@ -4,7 +4,7 @@ Below is a step by step procedure on how to run all code and reproduce analyses
 
 # Data Download
 The below workflows take either WGS Bam files or ASCAT3 allele specific copy number segments.
-These can be download from the TCGA/EGA with the included helper script gdc_download.sh and ega_download.sh
+These can be downloaded. from the TCGA/EGA with the included helper script gdc_download.sh and ega_download.sh
 You will have to modify the scripts to download the data you are specifically after.
 
 # Amplicon Architect Overview
