@@ -42,12 +42,12 @@ Rscript gcap.R \
 
 # main.R Overview
 ecDNA_pipeline/R/gcap.R is an R script that runs several analyses downstream of ecDNA classifiction including:
-ecDNA frequency calculation
-sample type frequency calculation
-ecDNA gene-level amplification frequency and copy number calculations
-DESeq2 differential expression
-GSEA
-XCell cell deconvolution
+ecDNA frequency calculation \n
+sample type frequency calculation \n
+ecDNA gene-level amplification frequency and copy number calculations \n
+DESeq2 differential expression \n
+GSEA \n
+XCell cell deconvolution \n
 survival analysis.
 
 # main.R Data Format
