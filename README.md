@@ -26,7 +26,7 @@ nextflow run main.nf \
 ```
 
 # GCAP Overview
-ecDNA_pipeline/R/gcap.R is a script to run GCAP [GCAP](https://github.com/ShixiangWang/gcap).
+ecDNA_pipeline/R/gcap.R is a script to run [GCAP](https://github.com/ShixiangWang/gcap).
 
 # GCAP Data Format
 This script takes allele-specific copy number segments as input.
