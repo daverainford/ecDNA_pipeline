@@ -16,11 +16,15 @@ parser$add_argument('--model', required=TRUE, help="Path to the model matrix CSV
 parser$add_argument('--aa_genes', required=TRUE, help="Path to the AmpliconArchitect gene summary CSV.")
 parser$add_argument('--survival_data', required=TRUE, help="Path to the survival_data CSV.
                     Required cols: sample, time, censored.")
+parser$add_argument('--gdc_data', required=TRUE, help="Path to directory containing TCGA transcriptome/MAF data, or directory you want to download it in.
+                                                        If you downloading it for the first time, it is important you do it in the same directory as the main.R
+                                                        script.")
 parser$add_argument('--outdir', required=TRUE, help="Path to output directory.")
 args = parser$parse_args()
 model = args$model
 aa_genes = args$aa_genes
 survival_data = args$survival_data
+gdc_data = args$gdc_data
 outdir = args$outdir
 
 ###############################################################################################################################
@@ -213,8 +217,8 @@ query = GDCquery(
 )
 
 # Download and prepare the RNA-Seq data
-GDCdownload(query)
-data = GDCprepare(query)
+GDCdownload(query, directory = gdc_data)
+data = GDCprepare(query, directory = gdc_data)
 
 # Extract the raw counts matrix from the data and adjust sample names
 counts = assay(data)
@@ -344,8 +348,8 @@ query = GDCquery(project = "TCGA-SKCM",
                  data.category = "Simple Nucleotide Variation",  # SNP and small indels
                  data.type = "Masked Somatic Mutation",
                  workflow.type = "Aliquot Ensemble Somatic Variant Merging and Masking")
-GDCdownload(query)  # Download the mutation data
-maf_file = GDCprepare(query)  # Prepare the mutation data into a MAF (Mutation Annotation Format) object
+GDCdownload(query, directory = gdc_data)  # Download the mutation data
+maf_file = GDCprepare(query, directory = gdc_data)  # Prepare the mutation data into a MAF (Mutation Annotation Format) object
 
 # Calculate TMB (mutations per megabase) from the MAF file
 maf_object = read.maf(maf = maf_file)
