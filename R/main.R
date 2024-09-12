@@ -27,9 +27,9 @@ args = parser$parse_args()
 model = args$model
 aa_genes = args$aa_genes
 survival_data = args$survival_data
-gdc_data = args$gdc_data
+gdc_data = normalizePath(args$gdc_data, mustWork = FALSE)
 gcap_genes = args$gcap_genes
-outdir = args$outdir
+outdir = normalizePath(args$outidr, mustWork = FALSE)
 
 # Check if files provided in arguments exist
 arg_check(model)
