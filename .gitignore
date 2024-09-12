@@ -1,6 +1,10 @@
 *
 !modules/
 !modules/**
+!python/
+!python/**
+!R/
+!R/**
 !main.nf
 !nextflow.config
 !gdc_download.sh
