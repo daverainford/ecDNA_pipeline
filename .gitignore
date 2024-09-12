@@ -1,6 +1,4 @@
 *
-!python/
-!R/
 !modules/
 !modules/**
 !main.nf
