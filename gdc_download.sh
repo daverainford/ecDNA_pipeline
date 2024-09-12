@@ -13,7 +13,7 @@ module load singularity
 # Download TCGA data to data download directory
 singularity exec /scratch/drainford/containers/gdc-client_1.6.1.sif gdc-client download \
     -n 40 \
-    -m download_data/rna_manifest.txt \
+    -m download_data/*manifest* \
     -t download_data/*token* \
     -d /scratch/drainford/ecDNA_pipeline/data/rna/
 
