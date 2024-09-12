@@ -8,5 +8,6 @@
 !main.nf
 !nextflow.config
 !gdc_download.sh
+!ega_download.sh
 .DS_Store
 gdc_download.sh
