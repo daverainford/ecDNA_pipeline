@@ -8,7 +8,7 @@ message("#######################################################################
 
 library(argparse)
 
-# Add and define the --model, aa_genes, --survival_data, and --outdir arguments
+# Add command line arguments with argparse
 parser <- ArgumentParser()
 
 parser$add_argument('--model', required=TRUE, help="Path to the model matrix CSV. 
@@ -21,6 +21,8 @@ parser$add_argument('--gdc_data', required=TRUE, help="Path to directory contain
                                                         script.")
 parsers$add_argument('--gcap_genes', required=TRUE, help="Path to ALL_gcap_genes_1L.csv."))
 parser$add_argument('--outdir', required=TRUE, help="Path to output directory.")
+
+# Store command line arguments as variables
 args = parser$parse_args()
 model = args$model
 aa_genes = args$aa_genes
@@ -127,6 +129,7 @@ message("CALCULATING SAMPLE TYPE COMPOSITION")
 message("##########################################################################################")
 message("##########################################################################################")
 # Calculate percent of metastatic samples for each group
+
 #################################################### Metastatic Frequency #####################################################
 
 # Filter out unknown sample types to retain only Primary Tumor and Metastatic types
