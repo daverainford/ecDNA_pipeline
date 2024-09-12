@@ -19,7 +19,7 @@ parser$add_argument('--survival_data', required=TRUE, help="Path to the survival
 parser$add_argument('--gdc_data', required=TRUE, help="Path to directory containing TCGA transcriptome/MAF data, or directory you want to download it in.
                                                         If you downloading it for the first time, it is important you do it in the same directory as the main.R
                                                         script.")
-parsers$add_argument('--gcap_genes', required=TRUE, help="Path to ALL_gcap_genes_1L.csv."))
+parsers$add_argument('--gcap_genes', required=TRUE, help="Path to ALL_gcap_genes_1L.csv.")
 parser$add_argument('--outdir', required=TRUE, help="Path to output directory.")
 
 # Store command line arguments as variables
