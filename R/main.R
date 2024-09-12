@@ -1,3 +1,4 @@
+# Add arguments for execution fo main.R from the command line
 ###########################################################Argparse###########################################################
 
 library(argparse)
@@ -19,6 +20,7 @@ outdir = args$outdir
 
 ###############################################################################################################################
 
+# Load all libraries needed for analyses
 ###########################################################Load Libraries###########################################################
 
 library(GenomicFeatures)
@@ -27,11 +29,8 @@ library(immunedeconv)
 library(tidyverse)
 library(TCGAbiolinks)
 library(SummarizedExperiment)
-library(DESeq2)
 library(maftools)
 library(msigdbr)
-library(IlluminaHumanMethylation450kanno.ilmn12.hg19)
-library(minfi)
 library(survival)
 library(survminer)
 library(DESeq2)
@@ -43,6 +42,7 @@ source("/Users/drainford/Desktop/skcm_final/container/functions.R")
 
 ###############################################################################################################################
 
+# Define experimental groups based on model matrix CSV
 ###################################################### Group Definitions ######################################################
 # Read in model matrix from the provided file path
 model_matrix = read.csv(model)
@@ -84,6 +84,7 @@ write.csv(ecdna_freq, paste0(outdir, "ecdna_frequency.csv"))
 
 #############################################################################################################################
 
+# Calculate percent of metastatic samples for each group
 #################################################### Metastatic Frequency #####################################################
 
 # Filter out unknown sample types to retain only Primary Tumor and Metastatic types
@@ -110,6 +111,7 @@ write.csv(meta_freq, paste0(outdir, "metastatic_frequency.csv"))
 
 #############################################################################################################################
 
+# Calculate ecDNA amplification gene frequency and gene-level ecDNA copy number
 ############################################### Copy Number and Gene Analysis #################################################
 
 # Read in GCAP CN (copy number) data and filter for circular ecDNA genes
@@ -164,6 +166,7 @@ write.csv(bnn_gene_counts, paste0(outdir, "bnn_ecdna_gene_frequency.csv"))
 
 #############################################################################################################################
 
+# Load count matricies for both differential expression and cell deconvolution
 #################################################### Load Expression Data #####################################################
 
 # Query for RNA-Seq STAR count data from the TCGA-SKCM project
@@ -200,6 +203,7 @@ cell_counts = cell_counts[, order(colnames(cell_counts))]
 
 #############################################################################################################################
 
+# Perform differential expression analyses on all groups
 ################################################## Differential Expression ####################################################
 
 # Conduct differential expression analysis based on group and ecDNA status
@@ -224,6 +228,7 @@ write.csv(all, paste0(outdir, "diff_exp_all_ecdnaPOS.vs.ecdnaNEG.csv"))
 
 #############################################################################################################################
 
+# Perform GSEA on each groups differentail expression results
 ########################################################### GSEA ##############################################################
 
 # Extract significant differentially expressed genes from DESeq2 results (padj ≤ 0.1)
@@ -252,6 +257,7 @@ write.csv(bnn_gsea, paste0(outdir, "bnn_differential_expression_gsea.csv"))
 
 ##################################################################################################################################
 
+# Prepare the mixture matrix (count matrix) for cell deconvolution input
 ################################################## Prepare Mixture Matrices ########################################################
 
 # Convert ENSEMBL IDs in the cell count matrix to gene symbols for better interpretation
@@ -277,6 +283,7 @@ mixture_matrix = mixture_matrix[-1]  # Remove the gene name column
 
 #############################################################################################################################
 
+# Calculate TMB and perform cell deconvolution with xcell
 ################################################### Cell Deconvolution ########################################################
 # Calculate Tumor Mutational Burden (TMB) for each sample group using somatic mutation data
 query = GDCquery(project = "TCGA-SKCM",
@@ -313,6 +320,7 @@ all_sig = all_decon[all_decon$padj <= 0.1, ]
 
 #############################################################################################################################
 
+# Fit surivval analysis Kaplan-Meier model
 ################################################### Survival Analysis #########################################################
 
 # Read in survival data and merge with model matrix
