@@ -1,3 +1,10 @@
+#Function to check if files provided in main.R arguments exist.
+arg_check = funtion(file) {
+    if (!file.exists(file)) {
+    stop(paste("This file does not exist:", file))
+  }
+}
+
 # Function to conduct DESeq2 differential expression analysis
 # This function performs DESeq2 analysis on the given counts matrix and model data
 deseq = function(counts, model, condition) {

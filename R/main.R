@@ -29,6 +29,18 @@ gdc_data = args$gdc_data
 gcap_genes = args$gcap_genes
 outdir = args$outdir
 
+# Check if files provided in arguments exist
+arg_check(model)
+arg_check(aa_genes)
+arg_check(survival_data)
+arg_check(gcap_genes)
+
+# Check if gdc_data directory exists
+if (!dir.exists(gdc_data)) {
+  stop(paste("This directory does not exist:", gdc_data))
+}
+
+
 ###############################################################################################################################
 
 message("##########################################################################################")
