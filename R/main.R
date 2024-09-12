@@ -48,7 +48,7 @@ library(gcap)
 library(clusterProfiler)
 
 # Source functions for use in main.R
-source("/Users/drainford/Desktop/skcm_final/container/functions.R")
+source(file.path(dirname(rstudioapi::getActiveDocumentContext()$path), "functions.R"))
 
 ###############################################################################################################################
 
