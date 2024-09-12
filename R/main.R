@@ -130,6 +130,8 @@ genes_aa = data.frame(sample = genes_aa$sample, cn = genes_aa$gene_cn)
 cn_data = rbind(genes_aa, genes_gcap)
 cn_merge = merge(cn_data, model_matrix, by = "sample")
 cn_merge$log2_cn = log2(cn_merge$cn)  # Log-transform copy number values for downstream analysis
+write.csv(cn_merge, paste0(outdir, "ecdna_gene_level_cn.csv"))
+
 
 # Convert GCAP ENSEMBL IDs to gene symbols
 ensembl_ids = all_genes_gcap$ENSEMBL
