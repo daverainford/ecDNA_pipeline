@@ -17,6 +17,8 @@ The AmpliconArchitect test FASTQ files can be found by following the testing ins
 
 # Amplicon Architect Usage
 ```
+module load Nextflow
+
 nextflow run main.nf \
   --user HPC user account ID
   --data <path to BAM or test FASTQ files> \
