@@ -19,12 +19,14 @@ parser$add_argument('--survival_data', required=TRUE, help="Path to the survival
 parser$add_argument('--gdc_data', required=TRUE, help="Path to directory containing TCGA transcriptome/MAF data, or directory you want to download it in.
                                                         If you downloading it for the first time, it is important you do it in the same directory as the main.R
                                                         script.")
+parsers$add_argument('--gcap_genes', required=TRUE, help="Path to ALL_gcap_genes_1L.csv."))
 parser$add_argument('--outdir', required=TRUE, help="Path to output directory.")
 args = parser$parse_args()
 model = args$model
 aa_genes = args$aa_genes
 survival_data = args$survival_data
 gdc_data = args$gdc_data
+gcap_genes = args$gcap_genes
 outdir = args$outdir
 
 ###############################################################################################################################
@@ -148,7 +150,7 @@ message("#######################################################################
 ############################################### Copy Number and Gene Analysis #################################################
 
 # Read in GCAP CN (copy number) data and filter for circular ecDNA genes
-genes_gcap = read.csv(paste0(outdir,"ALL_gcap_genes_1L.csv"), row.names = 1)
+genes_gcap = read.csv(gcap_genes, row.names = 1)
 genes_gcap = genes_gcap[genes_gcap$gene_class == "circular", ]  # Keep only circular ecDNA genes
 
 # Create data frames for gene IDs and copy numbers from GCAP
