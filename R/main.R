@@ -322,11 +322,11 @@ gene_symbols = AnnotationDbi::select(org.Hs.eg.db, keys = ensembl_ids,
 cell_counts$ENSEMBL = row.names(cell_counts)
 cell_counts$ENSEMBL = gsub("\\..*", "", cell_counts$ENSEMBL)
 merged_counts = na.omit(merge(gene_symbols, cell_counts, by = "ENSEMBL"))
-merged_counts = merged_counts[-c(1, 2)]  # Remove ENSEMBL IDs and SYMBOL columns
+merged_counts = merged_counts[-1]  # Remove ENSEMBL IDs and SYMBOL columns
 
 # Aggregate counts by gene symbol, taking the mean for duplicated genes
 mixture_matrix = merged_counts
-mixture_matrix = aggregate(data = mixture_matrix, . ~ Gene, FUN = mean)
+mixture_matrix = aggregate(data = mixture_matrix, . ~ SYMBOL, FUN = mean)
 row.names(mixture_matrix) = mixture_matrix$Gene  # Set row names to gene symbols
 mixture_matrix = mixture_matrix[-1]  # Remove the gene name column
 
