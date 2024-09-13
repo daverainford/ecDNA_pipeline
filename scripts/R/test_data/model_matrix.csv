@@ -1,0 +1,460 @@
+﻿sample,ecdna,subtype,group,sample_type,method
+TCGA-D9-A1X3,Positive,TWT,TWT_ecDNA-Positive,Metastatic,AA
+TCGA-FS-A1ZK,Positive,BNN,BNN_ecDNA-Positive,Metastatic,AA
+TCGA-ER-A42H,Negative,TWT,TWT_ecDNA-Negative,Primary Tumor,AA
+TCGA-GN-A264,Positive,TWT,TWT_ecDNA-Positive,Metastatic,AA
+TCGA-EB-A4IQ,Positive,TWT,TWT_ecDNA-Positive,Primary Tumor,AA
+TCGA-ER-A19L,Positive,TWT,TWT_ecDNA-Positive,Metastatic,AA
+TCGA-EB-A82C,Positive,TWT,TWT_ecDNA-Positive,Primary Tumor,AA
+TCGA-FS-A1ZU,Positive,TWT,TWT_ecDNA-Positive,Metastatic,AA
+TCGA-ER-A197,Positive,TWT,TWT_ecDNA-Positive,Metastatic,AA
+TCGA-D3-A3CC,Positive,TWT,TWT_ecDNA-Positive,Metastatic,AA
+TCGA-BF-A1PX,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-BF-A1Q0,Negative,TWT,TWT_ecDNA-Negative,Primary Tumor,AA
+TCGA-BF-A5EP,Negative,TWT,TWT_ecDNA-Negative,Primary Tumor,AA
+TCGA-BF-A5ES,Negative,TWT,TWT_ecDNA-Negative,Primary Tumor,AA
+TCGA-BF-AAOU,Negative,TWT,TWT_ecDNA-Negative,Primary Tumor,AA
+TCGA-BF-AAP8,Negative,TWT,TWT_ecDNA-Negative,Primary Tumor,AA
+TCGA-D3-A3C8,Negative,TWT,TWT_ecDNA-Negative,Metastatic,AA
+TCGA-EB-A4OZ,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A4XL,Negative,TWT,TWT_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A51B,Negative,TWT,TWT_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A97M,Negative,TWT,TWT_ecDNA-Negative,Primary Tumor,AA
+TCGA-EE-A29B,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-ER-A1A1,Negative,TWT,TWT_ecDNA-Negative,Metastatic,AA
+TCGA-ER-A2NF,Negative,TWT,TWT_ecDNA-Negative,Primary Tumor,AA
+TCGA-FS-A1Z4,Negative,TWT,TWT_ecDNA-Negative,Metastatic,AA
+TCGA-WE-A8K4,Negative,TWT,TWT_ecDNA-Negative,Primary Tumor,AA
+TCGA-XV-A9VZ,Negative,TWT,TWT_ecDNA-Negative,Primary Tumor,AA
+TCGA-D3-A2JC,Positive,TWT,TWT_ecDNA-Positive,Metastatic,AA
+TCGA-FR-A2OS,Negative,TWT,TWT_ecDNA-Negative,Primary Tumor,AA
+TCGA-FS-A1ZJ,Negative,TWT,TWT_ecDNA-Negative,Metastatic,AA
+TCGA-EB-A42Y,Positive,TWT,TWT_ecDNA-Positive,Primary Tumor,AA
+TCGA-ER-A3ES,Negative,TWT,TWT_ecDNA-Negative,Metastatic,AA
+TCGA-GN-A266,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A29D,Negative,TWT,TWT_ecDNA-Negative,Metastatic,AA
+TCGA-FS-A1ZG,Positive,TWT,TWT_ecDNA-Positive,Metastatic,AA
+TCGA-D3-A2J6,Negative,TWT,TWT_ecDNA-Negative,Metastatic,AA
+TCGA-EB-A5UM,Negative,TWT,TWT_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A4OY,Negative,TWT,TWT_ecDNA-Negative,Primary Tumor,AA
+TCGA-EE-A3JI,Positive,BNN,BNN_ecDNA-Positive,Metastatic,AA
+TCGA-BF-A1PV,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-BF-A1PZ,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-BF-A5EO,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-BF-AAOX,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-D3-A1Q8,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-D3-A1QB,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-D9-A3Z4,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-DA-A1HV,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EB-A1NK,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A44O,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A551,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A85J,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EE-A185,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A29Q,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A29R,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A29S,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A2A1,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A2GN,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A2GP,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A2MC,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A2MD,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A2ML,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-ER-A199,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-ER-A19D,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-ER-A19N,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-ER-A2NC,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-FS-A1Z0,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-FS-A1ZB,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-FS-A1ZW,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-FS-A1ZY,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-FS-A1ZZ,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-HR-A2OG,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-FS-A1ZE,Positive,BNN,BNN_ecDNA-Positive,Metastatic,AA
+TCGA-DA-A3F3,Positive,BNN,BNN_ecDNA-Positive,Metastatic,AA
+TCGA-FS-A1ZT,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-FS-A1ZQ,Positive,BNN,BNN_ecDNA-Positive,Metastatic,AA
+TCGA-EE-A29V,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-GN-A8LN,Positive,BNN,BNN_ecDNA-Positive,Primary Tumor,AA
+TCGA-XV-AAZY,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-FS-A1ZP,Positive,BNN,BNN_ecDNA-Positive,Metastatic,AA
+TCGA-EE-A2MN,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-D9-A4Z3,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-D3-A1Q1,Positive,BNN,BNN_ecDNA-Positive,Metastatic,AA
+TCGA-FS-A1YW,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-BF-AAP2,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EE-A2GR,Positive,BNN,BNN_ecDNA-Positive,Metastatic,AA
+TCGA-EE-A2MT,Positive,BNN,BNN_ecDNA-Positive,Metastatic,AA
+TCGA-BF-AAP4,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-DA-A1IC,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EB-A3Y7,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A4IS,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EE-A17X,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A2MJ,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A3J5,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-ER-A194,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-ER-A19A,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-FR-A3R1,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-FS-A1ZA,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-GN-A263,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-YG-AA3N,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EE-A2MS,Positive,BNN,BNN_ecDNA-Positive,Metastatic,AA
+TCGA-XV-A9W2,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-FR-A726,Negative,TWT,TWT_ecDNA-Negative,Primary Tumor,AA
+TCGA-EE-A2MI,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A2M6,Positive,BNN,BNN_ecDNA-Positive,Metastatic,AA
+TCGA-DA-A3F5,Positive,BNN,BNN_ecDNA-Positive,Metastatic,AA
+TCGA-XV-A9W5,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-D9-A4Z2,Positive,BNN,BNN_ecDNA-Positive,Primary Tumor,AA
+TCGA-BF-A5EQ,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EE-A2MH,Positive,BNN,BNN_ecDNA-Positive,Metastatic,AA
+TCGA-GF-A769,Positive,BNN,BNN_ecDNA-Positive,Primary Tumor,AA
+TCGA-EB-A24C,Positive,BNN,BNN_ecDNA-Positive,Primary Tumor,AA
+TCGA-ER-A193,Positive,BNN,BNN_ecDNA-Positive,Metastatic,AA
+TCGA-EE-A20H,Positive,BNN,BNN_ecDNA-Positive,Metastatic,AA
+TCGA-BF-A1PU,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-BF-A3DJ,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-BF-A3DL,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-BF-A3DM,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-BF-A3DN,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-BF-A5ER,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-BF-AAP6,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-BF-AAP7,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-D3-A1Q7,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-D3-A2JD,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-D3-A2JP,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-D3-A3CE,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-D9-A148,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-D9-A1JX,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-DA-A1HY,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-DA-A1I0,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-DA-A1I2,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-DA-A1I7,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-DA-A3F8,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EB-A24D,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A299,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A3XB,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A3XC,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A3XD,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A3XF,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A42Z,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A44N,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A44P,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A4P0,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A550,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A553,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A5FP,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A6QY,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A6QZ,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A6R0,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EB-A85I,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-EE-A29C,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A29N,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A29P,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A29T,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A2A0,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A2A6,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A2GB,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A2GS,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A2GT,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A2M5,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A2M7,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A2ME,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A2MG,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A2MP,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A2MQ,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-ER-A19J,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-ER-A19K,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-ER-A19O,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-FR-A728,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-FS-A1YX,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-FS-A1YY,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-FS-A1Z7,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-FS-A1ZC,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-FS-A1ZD,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-FS-A1ZF,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-FS-A1ZH,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-FS-A1ZN,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-FS-A1ZR,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-FS-A1ZS,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-GN-A262,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-GN-A269,Negative,BNN,BNN_ecDNA-Negative,UNK,AA
+TCGA-GN-A26A,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-GN-A4U5,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-HR-A2OH,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-HR-A5NC,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-IH-A3EA,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-XV-AAZV,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-XV-AAZW,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-FS-A1ZM,Positive,BNN,BNN_ecDNA-Positive,Metastatic,AA
+TCGA-EB-A5SE,Positive,BNN,BNN_ecDNA-Positive,Primary Tumor,AA
+TCGA-EE-A29E,Positive,BNN,BNN_ecDNA-Positive,Metastatic,AA
+TCGA-DA-A1HW,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-DA-A1I8,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-ER-A19Q,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EB-A430,Positive,BNN,BNN_ecDNA-Positive,Primary Tumor,AA
+TCGA-D9-A4Z5,Positive,BNN,BNN_ecDNA-Positive,Primary Tumor,AA
+TCGA-EB-A3Y6,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-D3-A1Q9,Positive,BNN,BNN_ecDNA-Positive,Metastatic,AA
+TCGA-DA-A1I5,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-D3-A1Q5,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-D3-A3C3,Positive,BNN,BNN_ecDNA-Positive,Metastatic,AA
+TCGA-ER-A19E,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EB-A431,Positive,BNN,BNN_ecDNA-Positive,Primary Tumor,AA
+TCGA-GN-A265,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EE-A2GC,Positive,BNN,BNN_ecDNA-Positive,Metastatic,AA
+TCGA-GF-A2C7,Positive,BNN,BNN_ecDNA-Positive,Primary Tumor,AA
+TCGA-EE-A29H,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-D3-A5GT,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-BF-AAP1,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-D9-A1JW,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EB-A3XE,Positive,BNN,BNN_ecDNA-Positive,Primary Tumor,AA
+TCGA-D3-A3MO,Negative,BNN,BNN_ecDNA-Negative,Metastatic,AA
+TCGA-EB-A3HV,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,AA
+TCGA-3N-A9WB,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-3N-A9WC,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-BF-AAP0,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-D3-A1Q3,Positive,TWT,TWT_ecDNA-Positive,Metastatic,GCAP
+TCGA-D3-A1QA,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-D3-A2JA,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-D3-A2JE,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-D3-A2JG,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-D3-A3C1,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-D3-A51E,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-D3-A51G,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-D3-A51K,Positive,TWT,TWT_ecDNA-Positive,Metastatic,GCAP
+TCGA-D3-A5GL,Positive,TWT,TWT_ecDNA-Positive,Metastatic,GCAP
+TCGA-D3-A5GR,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-D3-A8GB,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-D9-A149,Positive,TWT,TWT_ecDNA-Positive,Metastatic,GCAP
+TCGA-D9-A3Z3,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-D9-A6E9,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-D9-A6EC,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-DA-A1IA,Positive,TWT,TWT_ecDNA-Positive,Metastatic,GCAP
+TCGA-DA-A95V,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-DA-A95Y,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-EB-A41B,Positive,BNN,BNN_ecDNA-Positive,Primary Tumor,GCAP
+TCGA-EB-A44Q,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-EB-A44R,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-EB-A57M,Positive,TWT,TWT_ecDNA-Positive,Primary Tumor,GCAP
+TCGA-EB-A5KH,Positive,TWT,TWT_ecDNA-Positive,Metastatic,GCAP
+TCGA-EB-A5SF,Positive,TWT,TWT_ecDNA-Positive,Primary Tumor,GCAP
+TCGA-EB-A5SH,Positive,TWT,TWT_ecDNA-Positive,Metastatic,GCAP
+TCGA-EB-A5VU,Positive,BNN,BNN_ecDNA-Positive,Primary Tumor,GCAP
+TCGA-EB-A82B,Positive,BNN,BNN_ecDNA-Positive,Primary Tumor,GCAP
+TCGA-EE-A180,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-EE-A184,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-EE-A20I,Positive,TWT,TWT_ecDNA-Positive,Metastatic,GCAP
+TCGA-EE-A29G,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-EE-A2MM,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-EE-A2MU,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-EE-A3AD,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-EE-A3JB,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-ER-A19C,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-ER-A19M,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-ER-A19W,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-ER-A2NG,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-ER-A2NH,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-ER-A3ET,Positive,TWT,TWT_ecDNA-Positive,Metastatic,GCAP
+TCGA-ER-A3EV,Positive,TWT,TWT_ecDNA-Positive,Metastatic,GCAP
+TCGA-FS-A1Z3,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-FS-A4F4,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-FS-A4F8,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-FS-A4FD,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-FW-A3I3,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-FW-A5DX,Positive,BNN,BNN_ecDNA-Positive,Primary Tumor,GCAP
+TCGA-GN-A26D,Positive,TWT,TWT_ecDNA-Positive,Metastatic,GCAP
+TCGA-GN-A4U7,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-GN-A8LL,Positive,TWT,TWT_ecDNA-Positive,Metastatic,GCAP
+TCGA-GN-A9SD,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-W3-A825,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-W3-AA1O,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-W3-AA1V,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-WE-A8K1,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-WE-A8ZN,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-WE-A8ZR,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-WE-A8ZX,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-WE-A8ZY,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-WE-AA9Y,Positive,TWT,TWT_ecDNA-Positive,Metastatic,GCAP
+TCGA-YD-A89C,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-YD-A9TA,Positive,BNN,BNN_ecDNA-Positive,Metastatic,GCAP
+TCGA-YG-AA3P,Positive,TWT,TWT_ecDNA-Positive,Metastatic,GCAP
+TCGA-Z2-A8RT,Positive,TWT,TWT_ecDNA-Positive,Metastatic,GCAP
+TCGA-3N-A9WD,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A1Q4,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A1Q6,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A2J7,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A2J8,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A2J9,Negative,TWT,TWT_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A2JB,Negative,TWT,TWT_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A2JH,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A2JK,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A3C6,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A3C7,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A3CB,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A3ML,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A3MR,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A3MU,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A3MV,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A51F,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A51H,Negative,TWT,TWT_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A51R,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A5GU,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A8GD,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A8GE,Negative,TWT,TWT_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A8GK,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A8GL,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A8GN,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A8GQ,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A8GV,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D9-A3Z1,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D9-A4Z6,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D9-A6EG,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-DA-A1I4,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-DA-A1IB,Negative,TWT,TWT_ecDNA-Negative,Metastatic,GCAP
+TCGA-DA-A3F2,Negative,TWT,TWT_ecDNA-Negative,Metastatic,GCAP
+TCGA-DA-A95X,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-DA-A960,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,GCAP
+TCGA-EB-A5SG,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EB-A5VV,Negative,TWT,TWT_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A17Z,Negative,TWT,TWT_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A181,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A183,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A29X,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A2GD,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A2GH,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A2GJ,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A2GK,Negative,TWT,TWT_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A2GL,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A2GO,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A2MF,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A2MR,Negative,TWT,TWT_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A3AA,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A3AC,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A3AF,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A3AH,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A3J4,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A3JD,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A3JE,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-ER-A195,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-ER-A198,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-ER-A19F,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-ER-A19P,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-ER-A42K,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-ER-A42L,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-FR-A3YN,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-FR-A7U9,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-FR-A7UA,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-FR-A8YE,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-FS-A4F5,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-FS-A4F9,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-FS-A4FC,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-FW-A3R5,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-FW-A3TV,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-FW-A5DY,Negative,TWT,TWT_ecDNA-Negative,Metastatic,GCAP
+TCGA-GF-A3OT,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-GN-A267,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-GN-A268,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-GN-A4U3,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-GN-A4U4,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-GN-A8LK,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-LH-A9QB,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-RP-A690,Negative,TWT,TWT_ecDNA-Negative,Metastatic,GCAP
+TCGA-RP-A693,Negative,TWT,TWT_ecDNA-Negative,Metastatic,GCAP
+TCGA-RP-A694,Negative,TWT,TWT_ecDNA-Negative,Metastatic,GCAP
+TCGA-RP-A695,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-W3-A824,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-W3-AA1Q,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-WE-A8K6,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-WE-AAA0,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-WE-AAA4,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-Z2-AA3S,Negative,TWT,TWT_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A2JF,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A2JL,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A2JN,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A2JO,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A3BZ,Negative,TWT,TWT_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A51J,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A51N,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A51T,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A5GN,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A5GO,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A5GS,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A8GC,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A8GI,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A8GJ,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A8GM,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A8GP,Negative,TWT,TWT_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A8GR,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D3-A8GS,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-D9-A6EA,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-DA-A1I1,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-DA-A95W,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-DA-A95Z,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EB-A5UL,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EB-A5UN,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EB-A6L9,Negative,TWT,TWT_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A17Y,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A182,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A20B,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A20C,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A20F,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A29A,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A29L,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A29M,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A29W,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A2A2,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A2A5,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A2GE,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A2GM,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A2GU,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A2M8,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A2MK,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A3AB,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A3AE,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A3AG,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A3J3,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A3J7,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A3J8,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A3JA,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-EE-A3JH,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-ER-A19B,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-ER-A19G,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-ER-A19H,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-ER-A19S,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-ER-A2NB,Negative,BNN,BNN_ecDNA-Negative,Primary Tumor,GCAP
+TCGA-ER-A2ND,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-ER-A2NE,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-FR-A3YO,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-FR-A44A,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-FR-A69P,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-FR-A729,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-FR-A7U8,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-FR-A8YC,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-FR-A8YD,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-FS-A4F2,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-FS-A4FB,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-FW-A3TU,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-GF-A4EO,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-GF-A6C8,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-GF-A6C9,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-GN-A4U8,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-GN-A4U9,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-OD-A75X,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-QB-A6FS,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-QB-AA9O,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-RP-A6K9,Negative,TWT,TWT_ecDNA-Negative,Metastatic,GCAP
+TCGA-W3-A828,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-W3-AA1R,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-W3-AA1W,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-W3-AA21,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-WE-A8JZ,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-WE-A8K5,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-WE-A8ZM,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-WE-A8ZO,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-WE-A8ZQ,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-WE-A8ZT,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-WE-AAA3,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-YD-A9TB,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-YG-AA3O,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
+TCGA-Z2-AA3V,Negative,BNN,BNN_ecDNA-Negative,Metastatic,GCAP
