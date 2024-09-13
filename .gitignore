@@ -1,6 +1,8 @@
 *
 !modules/
 !modules/**
+!scripts/
+!scripts/** 
 !python/
 !python/**
 !R/
