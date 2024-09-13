@@ -3,6 +3,8 @@ nextflow.enable.dsl=2
 // Load modules
 include {TestInstall} from './modules/test_install/main.nf'
 include {AmpliconSuite} from './modules/amplicon_architect/main.nf'
+include {Logan} from './modules/logan/main.nf'
+include {Kcm} from './modules/kcm/main.nf'
 
 // Define parameters
 params.data = "./data/test_fastq/"
@@ -46,5 +48,7 @@ workflow {
       .ifEmpty {throw new RuntimeException("No BAM files found matching pattern in ${params.data}/")}
 
     AmpliconSuite(bams_channel)
+    Logan()
+    Kcm()
   }
 }
