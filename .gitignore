@@ -3,6 +3,7 @@
 !modules/**
 !scripts/
 !scripts/** 
+scripts/R/outputs/**
 !python/
 !python/**
 !R/
@@ -12,4 +13,6 @@
 !gdc_download.sh
 !ega_download.sh
 .DS_Store
-gdc_download.sh
+!gdc_download.sh
+!ega_download.sh
+
