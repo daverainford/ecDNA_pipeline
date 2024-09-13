@@ -16,8 +16,8 @@ if (!dir.exists(ascat_cnv)) {
 }
 
 # Check if gdc_data directory exists
-if (!dir.exists(gdc_data)) {
-  stop(paste("This directory does not exist:", gdc_data))
+if (!dir.exists(outdir)) {
+  stop(paste("This directory does not exist:", outdir))
 }
 ###############################################################################################################################
 
