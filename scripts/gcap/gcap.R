@@ -1,6 +1,5 @@
-# Add arguments to execute main.R from the command line
+# Add arguments to execute gcap.R from the command line
 ###########################################################Argparse###########################################################
-
 library(argparse)
 
 # Add and define the --ascat_files and --outdir arguments
@@ -12,11 +11,18 @@ args = parser$parse_args()
 ascat_cnv = args$ascat_files
 outdir = args$outdir
 
+if (!dir.exists(ascat_cnv)) {
+    stop(paste("This directory does not exist:", ascat_cnv))
+}
+
+# Check if gdc_data directory exists
+if (!dir.exists(gdc_data)) {
+  stop(paste("This directory does not exist:", gdc_data))
+}
 ###############################################################################################################################
 
 # Run GCAP workflow to identify ecDNA from Affy genotyping chip CNV segments
 ############################################################ GCAP #############################################################
-
 library(gcap)
 
 # List all files in the ascat directory for processing
