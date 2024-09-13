@@ -22,9 +22,13 @@ args = parser$parse_args()
 model = args$model
 aa_genes = args$aa_genes
 survival_data = args$survival_data
-gdc_data = normalizePath(args$gdc_data, mustWork = FALSE)
+gdc_data = normalizePath(as.character(args$gdc_data), mustWork = FALSE)
 gcap_genes = args$gcap_genes
-outdir = normalizePath(args$outidr, mustWork = FALSE)
+outdir = normalizePath(as.character(args$outidr), mustWork = FALSE)
+
+print(getwd())
+# Source functions for use in analysis
+source(file.path(getwd(), "utils.R"))
 
 # Check if files provided in arguments exist
 arg_check(model)
@@ -57,11 +61,8 @@ library(DESeq2)
 library(gcap)
 library(clusterProfiler)
 
-# Source functions for use in analysis
-source(file.path(dirname(normalizePath(sys.frames()[[1]]$ofile)), "functions.R"))
-
 # Execute summary_stats.R
-source(file.path(dirname(normalizePath(sys.frames()[[1]]$ofile)), "summary_stats.R"))
+source(file.path(getwd(), "summary_stats.R"))
 
 # Execute rna_analysis
-source(file.path(dirname(normalizePath(sys.frames()[[1]]$ofile)), "summary_stats.R"))
+source(file.path(getwd(), "rna_analysis.R"))
