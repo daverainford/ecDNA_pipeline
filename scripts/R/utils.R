@@ -1,7 +1,13 @@
 #Function to check if files provided in main.R arguments exist.
-arg_check = function(file) {
+file_check = function(file) {
   if (!file.exists(file)) {
     stop(paste("This file does not exist:", file))
+  }
+}
+
+dir_check = function(dir) {
+    if (!file.exists(dir )) {
+    stop(paste("This directory does not exist:", dir))
   }
 }
 

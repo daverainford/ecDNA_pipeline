@@ -11,14 +11,13 @@ args = parser$parse_args()
 ascat_cnv = args$ascat_files
 outdir = args$outdir
 
-if (!dir.exists(ascat_cnv)) {
-    stop(paste("This directory does not exist:", ascat_cnv))
-}
+# Source functions for use in analysis
+dir = as.character(getwd())
+source(paste0(substr(dir, 1, nchar(dir) - 4),"R/", "utils.R"))
 
-# Check if gdc_data directory exists
-if (!dir.exists(outdir)) {
-  stop(paste("This directory does not exist:", outdir))
-}
+# Check if files/directories provided in arguments exist
+dir_check(ascat_cnv)
+dir_check(outdir)
 ###############################################################################################################################
 
 # Run GCAP workflow to identify ecDNA from Affy genotyping chip CNV segments

@@ -26,22 +26,15 @@ gdc_data = normalizePath(as.character(args$gdc_data), mustWork = FALSE)
 gcap_genes = args$gcap_genes
 outdir = normalizePath(as.character(args$outidr), mustWork = FALSE)
 
-print(getwd())
 # Source functions for use in analysis
 source(file.path(getwd(), "utils.R"))
 
-# Check if files provided in arguments exist
-arg_check(model)
-arg_check(aa_genes)
-arg_check(survival_data)
-arg_check(gcap_genes)
-
-# Check if gdc_data directory exists
-if (!dir.exists(gdc_data)) {
-  stop(paste("This directory does not exist:", gdc_data))
-}
-
-
+# Check if files/directories provided in arguments exist
+file_check(model)
+file_check(aa_genes)
+file_check(survival_data)
+file_check(gcap_genes)
+dir_check(gdc_data)
 ###############################################################################################################################
 
 # Load all libraries needed for analyses
