@@ -14,7 +14,7 @@ ecDNA_pipeline/main.nf is a Nextflow pipeline to handle containerized [AmpliconS
 This pipeline takes a matched tumor/normal pair of BAM file as input. 
 It is reccomended to test AmpliconSuite upon initial install, which can be done here by: ```--test``` flag.
 The AmpliconArchitect test FASTQ files can be found by following the testing instructions in the link above.
-BAM files must adhere to the following naming convention: {patient id}>_{T/N}.bam. T/N corresponds to tumor or normal BAM.
+BAM files must adhere to the following naming convention: {patient id}_{T/N}.bam. T/N corresponds to tumor or normal BAM.
 
 # Amplicon Architect Usage
 ```
