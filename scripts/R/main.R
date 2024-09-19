@@ -27,7 +27,7 @@ gcap_genes = args$gcap_genes
 outdir = normalizePath(as.character(args$outidr), mustWork = FALSE)
 
 # Source functions for use in analysis
-source(file.path(getwd(), "utils.R"))
+source(file.path(this.path::this.dir(), "utils.R"))
 
 # Check if files/directories provided in arguments exist
 file_check(model)
@@ -55,7 +55,7 @@ library(gcap)
 library(clusterProfiler)
 
 # Execute summary_stats.R
-source(file.path(getwd(), "summary_stats.R"))
+source(file.path(this.path::this.dir(), "summary_stats.R"))
 
 # Execute rna_analysis
-source(file.path(getwd(), "rna_analysis.R"))
+source(file.path(this.path::this.dir(), "rna_analysis.R"))
