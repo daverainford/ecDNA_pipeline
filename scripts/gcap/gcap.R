@@ -13,7 +13,7 @@ outdir = args$outdir
 
 # Source functions for use in analysis
 dir = as.character(getwd())
-source(paste0(substr(dir, 1, nchar(dir) - 4),"R/", "utils.R"))
+source(file.path(getwd(), "utils.R"))
 
 # Check if files/directories provided in arguments exist
 dir_check(ascat_cnv)
