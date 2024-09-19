@@ -10,14 +10,6 @@ parser$add_argument('--outdir', required=TRUE, help="Path to output directory.")
 args = parser$parse_args()
 ascat_cnv = args$ascat_files
 outdir = args$outdir
-
-# Source functions for use in analysis
-dir = as.character(getwd())
-source(file.path(getwd(), "utils.R"))
-
-# Check if files/directories provided in arguments exist
-dir_check(ascat_cnv)
-dir_check(outdir)
 ###############################################################################################################################
 
 # Run GCAP workflow to identify ecDNA from Affy genotyping chip CNV segments
