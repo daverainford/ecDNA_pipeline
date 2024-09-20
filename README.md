@@ -12,6 +12,6 @@ nextflow run main.nf \
   --user HPC user account ID
   --data <path to BAM or test FASTQ files> \
   --outdir <path to output directory> \
-  --test <true if you want to test the pipeline; default false>
+  --test <pass if you want to run the TestInstall process; default false>
   -bg Use this flag to run a batch job on SLURM
 ```
